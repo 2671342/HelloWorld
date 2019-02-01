@@ -10,7 +10,11 @@ namespace helloWorld
     {
         static void Main(string[] args)
         {
-        Console.WriteLine("Hello World!");
+
+            Console.WriteLine("Кому передаем привет?");
+            string name = Convert.ToString(Console.ReadLine()); 
+            Console.WriteLine("Привет " + name);
+
             Console.ReadKey();
 
         }
